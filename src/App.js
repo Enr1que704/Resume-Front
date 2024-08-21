@@ -6,12 +6,22 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import Home from "./pages/index";
+import About from "./pages/about";
+import Experience from "./pages/experience";
+import PastJobs from "./pages/pastJobs";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Eric's Resume Site</h1>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/pastjobs" element={<PastJobs />} />
+      </Routes>
+    </Router>
   );
 }
 
