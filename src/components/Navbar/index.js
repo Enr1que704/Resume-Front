@@ -3,7 +3,6 @@ import { Nav, NavLink, NavMenu } from "./NavbarElements";
 
 const Navbar = () => {
     return (
-        <>
             <Nav>
                 <NavMenu>
                     <NavLink to="/" activeStyle>
@@ -15,12 +14,14 @@ const Navbar = () => {
                     <NavLink to="/experience" activeStyle>
                         Experience
                     </NavLink>
-                    <NavLink to="/pastjobs" activeStyle>
+                    {/* <NavLink to="/pastjobs" activeStyle>
                         Past Jobs
+                    </NavLink> */}
+                    <NavLink to="/contact" activeStyle>
+                        Contact 
                     </NavLink>
                 </NavMenu>
             </Nav>
-        </>
     )
 }
 
