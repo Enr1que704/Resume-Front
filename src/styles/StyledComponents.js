@@ -21,7 +21,7 @@ export const Break = styled.hr`
     border: 0;
     height: 4px;
     background: #333;
-    background-image: linear-gradient(to right, #ffffff, #4faaf0, #ffffff);
+    background-image: linear-gradient(to right, #ffffff, #454545, #ffffff);
     margin: 20px auto; // Center the hr horizontally using auto margin
     max-width: 50%; // Set the maximum width to 50% of the container
 `;

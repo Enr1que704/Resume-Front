@@ -3,34 +3,35 @@ import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
  
 export const Nav = styled.nav`
-    background: #4faaf0;
+    background: #32353c;
     height: 50px;
     display: flex;
     justify-content: space-around;
     ${'' /* padding: 0.2rem calc(((100vw - 1000px) / 2)); */}
     z-index: 12;
-    border-radius: 50px; // Add border-radius property to give curved edges
-    margin: 20px auto;
-    max-width: 60%; // Set the maximum width to 75% of the container
+    ${'' /* border-radius: 5px; // Add border-radius property to give curved edges */}
+    ${'' /* margin: 10px auto; */}
+    ${'' /* max-width: 60%; // Set the maximum width to 75% of the container */}
 `;
  
 export const NavLink = styled(Link)`
-    color: #000000;
+    color: #ffffff;
     display: flex;
     align-items: center;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    ${'' /* padding: 0.5rem 1rem; */}
+    padding: 5px 20px; // first value is height of the square around, second is the space between links
     height: 50%;
     cursor: pointer;
     font-size: 1.2rem;
     &.active {
         color: #ffffff;
-        border: 2px solid #ffffff;
+        ${'' /* border: 2px solid #ffffff;
         border-radius: 10px; // Add border-radius property to give curved edges
-        ${'' /* text-decoration: underline;
-        text-underline-offset: 15px;
-        text-decoration-thickness: 3px; */}
-        background-color: #4faaf0;
+        background-color: #4faaf0; */}
+        text-decoration: underline;
+        text-underline-offset: 12px;
+        text-decoration-thickness: 5px;
     }
 `;
  
@@ -48,14 +49,14 @@ export const NavLink = styled(Link)`
 //     }
 // `;
  
+// spacing within the NavMenu
 export const NavMenu = styled.div`
     display: flex;
-    align-items: center;
     margin-right: -24px;
-    justify-content: space-between;
     align-items: center;
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
+    padding: 0 15px;
     /* Second Nav */
     /* margin-right: 24px; */
     /* Third Nav */

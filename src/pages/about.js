@@ -1,11 +1,12 @@
 import React from "react";
-import { Header, Paragraph } from "../styles/StyledComponents";
+import { Break, Header, Paragraph } from "../styles/StyledComponents";
 
 const About = () => {
     return (
         <div>
             <Header>About</Header>
-            <Paragraph>This is the about page</Paragraph>
+            <Break />
+            <Paragraph></Paragraph>
         </div>
     );
 }

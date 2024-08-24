@@ -5,6 +5,7 @@ const Navbar = () => {
     return (
             <Nav>
                 <NavMenu>
+                    <img src={require("./pngegg.png")} alt="logo" style={{ width: "45px", height: "auto" }}></img>
                     <NavLink to="/" activeStyle>
                         Home
                     </NavLink>
