@@ -1,5 +1,5 @@
 import React from "react";
-import { Break, Header, Paragraph } from "../styles/StyledComponents";
+import { Break, Header } from "../styles/StyledComponents";
 
 const About = () => {
     return (
