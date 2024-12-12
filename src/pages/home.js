@@ -1,6 +1,9 @@
 import React from "react";
 import { Header, Paragraph, Break } from "../styles/StyledComponents";
 import ericImage from "../assets/images/eric.jpg";
+// import Example from "../components/Example";
+import HoverSpring from "../components/Example";
+
 
  
 const Home = () => {
@@ -11,11 +14,37 @@ const Home = () => {
             <Paragraph>Welcome to Eric's Resume and Project showcase site. Here you can learn more about Eric, as well as his work experience,
                 and projects he has worked on. Feel free to reach out to Eric if you have any questions or would like to learn more about his work.
             </Paragraph> */}
-            <div className="flex justify-center pt-[30px] w-screen h-[300px] bg-slate-400">
-                <div className="flex box-border h-[200px] w-[200px] border-4 justify-center">
-                    <img src={ericImage} className="object-cover h-full w-full" />
+            
+            {/* <div className="shadow-lg pt-6 bg-white rounded-lg"> */}
+                <div className="flex justify-center pt-[30px] w-screen h-[250px]">
+                    <div className="flex box-border h-[200px] w-[200px] border-4 justify-center rounded-full border-night-dive bg-night-dive">
+                            <img src={ericImage} className="object-cover h-full w-full rounded-full" />
+                    </div>
                 </div>
-            </div>
+                <div className="flex w-screen justify-center pt-[20px]">
+                        <h1 className="text-6xl font-sans text-bauhaus-blue">Hi, I'm Eric Johnson</h1>
+                </div>
+                <div className="flex w-screen justify-center pt-[20px]">
+                        <h3 className="text-2xl pb-10 font-sans text-bauhaus-blue">Full-stack Developer</h3>
+                </div>
+                <div className="flex justify-center w-1/3 mx-auto text-wrap pb-5">
+                    <p className="text-xl text-void">
+                        I love to design and create intelligent, user-friendly applications.
+                    </p>
+                    
+                </div>
+                <div className="flex justify-center w-1/3 mx-auto text-wrap">
+                    <p className="text-lg text-void">
+                    With over 3 years in the industry, I have experience in both front-end and back-end design and development.
+                    I love to learn new technologies and am always striving to stay up-to-date with the latest trends in the industry.
+                    Some of my passions include RESTful API implementations, data structures and algorithms, and efficient database design.
+                    </p>
+                    
+                </div>
+                
+            {/* </div> */}
+            {/* <Example /> */}
+            <HoverSpring />
 
         </div>
     );

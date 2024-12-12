@@ -13,7 +13,7 @@ const NewNavbar = () => {
   return (
     <Router>
       {/* Navbar */}
-      <nav className="bg-blue-600 text-white fixed w-full top-0 shadow-lg ">
+      <nav className="bg-night-dive text-white fixed w-full top-0 shadow-lg ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
@@ -31,9 +31,9 @@ const NewNavbar = () => {
               {/* <Link to="/" className="hover:text-gray-300">
                 Home
               </Link> */}
-              <Link to="/about" className="hover:text-gray-300">
+              {/* <Link to="/about" className="hover:text-gray-300">
                 About
-              </Link>
+              </Link> */}
               <Link to="/experience" className="hover:text-gray-300">
                 Experience
               </Link>
@@ -75,7 +75,7 @@ const NewNavbar = () => {
       <div className="mt-16">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          {/* <Route path="/about" element={<About />} /> */}
           <Route path="/experience" element={<Experience />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
