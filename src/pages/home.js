@@ -40,7 +40,7 @@ const Home = () => {
                 <div className="flex justify-center w-3/5 mx-auto text-wrap">
                     <p className="text-lg text-void text-center">
                     With over 3 years in the industry, I have experience in both front-end and back-end design and development.
-                    I love to learn new technologies and am always striving to stay up-to-date with the latest trends in the industry.
+                    I love to learn new technologies and am always striving to stay up-to-date with the latest trends in the web development and computer science.
                     Some of my passions include RESTful API implementations, data structures and algorithms, and efficient database design.
                     </p>
                     
