@@ -9,7 +9,7 @@ import TextGradient from "../components/TextGradient";
  
 const Home = () => {
     return (
-        <div>
+        <div className="min-h-screen w-screen bg-gradient-to-r from-calgar-blue/30 to-night-dive/30 ">
             {/* <Header>Eric's Resume</Header>
             <Break />
             <Paragraph>Welcome to Eric's Resume and Project showcase site. Here you can learn more about Eric, as well as his work experience,

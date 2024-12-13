@@ -63,7 +63,7 @@ const HoverSpring = () => {
                   alt={project.name}
                 /> */}
                 
-                <div className="mb-1 text-lg font-medium text-calgar-blue">
+                <div className="mb-1 text-lg font-medium text-night-dive">
                   <span className="flex items-center">
                     {project.name === 'Python' && <FaPython className="mr-2" />}
                     {project.name === 'Java' && <FaJava className="mr-2" />}
