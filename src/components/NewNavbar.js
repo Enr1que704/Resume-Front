@@ -4,6 +4,8 @@ import About from "../pages/about";
 import Home from "../pages/home";
 import Experience from "../pages/experience";
 import Contact from "../pages/contact";
+import { DefaultSidebar } from "./Sidebar";
+
 
 
 // Components for different routes
@@ -27,7 +29,7 @@ const NewNavbar = () => {
             </div>
 
             {/* Menu Links */}
-            <div className="hidden md:flex space-x-6">
+            <div className=" md:flex space-x-6">
               {/* <Link to="/" className="hover:text-gray-300">
                 Home
               </Link> */}
@@ -43,13 +45,14 @@ const NewNavbar = () => {
             </div>
 
             {/* Mobile Menu Button */}
-            <div className="md:hidden">
+            {/* <div className="md:hidden">
               <button
                 type="button"
+                onClick={<DefaultSidebar />}
                 className="inline-flex items-center justify-center p-2 rounded-md text-gray-200 hover:text-white hover:bg-blue-700 focus:outline-none"
               >
                 <span className="sr-only">Open main menu</span>
-                {/* Hamburger Icon */}
+                
                 <svg
                   className="h-6 w-6"
                   xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +69,8 @@ const NewNavbar = () => {
                   />
                 </svg>
               </button>
-            </div>
+            </div> */}
+            
           </div>
         </div>
       </nav>
