@@ -15,6 +15,7 @@ module.exports = {
         },
         animation: {
           textGradient: 'textGradient 5s ease infinite',
+          "hover-pulse": "hover-pulse 0.5s ease-in-out"
         },
         keyframes: {
           textGradient: {
@@ -27,6 +28,14 @@ module.exports = {
               'background-position': 'right center',
             },
           },
+          'hover-pulse': {
+            '0%': {
+              boxShadow: '0 0 0 0 rgba(0, 0, 0, 0.2)',
+            },
+            '100%': {
+              boxShadow: '0 0 0 2em rgba(255, 0, 0 ,0)'
+            }
+          }
         },
       },
     },

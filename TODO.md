@@ -1,4 +1,6 @@
 ## Need to Have
+- Home Page
+    1. Fix the shrinking icons for typescript and version control
 - Experience page
     1. Add cards with projects, clicking them points to repo?
 
