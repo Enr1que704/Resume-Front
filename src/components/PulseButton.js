@@ -15,9 +15,9 @@ const PulseButton = (props) => {
         //         <a href="
         // }
         <a target={"_blank"} href={props.link}>
-            {props.image === "LinkedIn" && <FaLinkedin  className=" text-[120px] text-bauhaus-blue hover:text-[140px]"/>}
-            {props.image === "GitHub" && <FaGithub className="text-[120px] text-bauhaus-blue hover:text-[140px]"/>}
-            {props.image === "Email" && <MdOutlineEmail className="text-[160px] text-bauhaus-blue hover:text-[180px]"/>}
+            {props.image === "LinkedIn" && <FaLinkedin  className=" text-9xl text-bauhaus-blue hover:text-[140px]"/>}
+            {props.image === "GitHub" && <FaGithub className="text-9xl text-bauhaus-blue hover:text-[140px]"/>}
+            {props.image === "Email" && <MdOutlineEmail className="text-9xl text-bauhaus-blue hover:text-[180px]"/>}
         </a>
     )
 }
