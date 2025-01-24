@@ -41,7 +41,7 @@ const Home = () => {
                     <p className="text-lg text-void text-center">
                     With over 3 years in the industry, I have experience in both front-end and back-end design and development.
                     I love to learn new technologies and am always striving to stay up-to-date with the latest trends in the web development and computer science.
-                    Some of my passions include RESTful API implementations, data structures and algorithms, and efficient database design.
+                    Some of my passions include spending time with my family, music, video games, the mountains, and of course, programming!
                     </p>
                     
                 </div>
