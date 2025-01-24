@@ -15,7 +15,8 @@ module.exports = {
         },
         animation: {
           textGradient: 'textGradient 5s ease infinite',
-          "hover-pulse": "hover-pulse 0.5s ease-in-out"
+          "hover-pulse": "hover-pulse 0.5s ease-in-out",
+          "expand": "scale-125",
         },
         keyframes: {
           textGradient: {

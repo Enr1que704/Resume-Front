@@ -14,10 +14,10 @@ const PulseButton = (props) => {
         //     return (
         //         <a href="
         // }
-        <a href={props.link}>
-            {props.image === "LinkedIn" && <FaLinkedin className="text-6xl text-bauhaus-blue hover:animate-hover-pulse"/>}
-            {props.image === "GitHub" && <FaGithub className="text-6xl text-bauhaus-blue hover:animate-hover-pulse"/>}
-            {props.image === "Email" && <MdOutlineEmail className="text-6xl text-bauhaus-blue hover:animate-hover-pulse"/>}
+        <a target={"_blank"} href={props.link}>
+            {props.image === "LinkedIn" && <FaLinkedin  className=" text-[120px] text-bauhaus-blue hover:text-[140px]"/>}
+            {props.image === "GitHub" && <FaGithub className="text-[120px] text-bauhaus-blue hover:text-[140px]"/>}
+            {props.image === "Email" && <MdOutlineEmail className="text-[160px] text-bauhaus-blue hover:text-[180px]"/>}
         </a>
     )
 }

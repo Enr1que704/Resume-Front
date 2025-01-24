@@ -36,9 +36,9 @@ const NewNavbar = () => {
               {/* <Link to="/about" className="hover:text-gray-300">
                 About
               </Link> */}
-              <Link to="/experience" className="hover:text-gray-300">
+              {/* <Link to="/experience" className="hover:text-gray-300">
                 Experience
-              </Link>
+              </Link> */}
               <Link to="/contact" className="hover:text-gray-300">
                 Contact
               </Link>

@@ -26,13 +26,13 @@ const Contact = () => {
                 </div>
             </div>
             <div className="flex w-screen justify-center pt-[20px]">
-                <h3 className="text-2xl pb-10 font-sans text-bauhaus-blue">Contact me here!</h3>
+                <h3 className="text-2xl pb-10 font-sans text-bauhaus-blue">Here are some ways you can reach me</h3>
             </div>
-            <div className="flex justify-center w-screen h-[200px]">
+            <div className="flex justify-center items-center w-1/2 h-[200px] mx-auto">
             {sites.map((site) => {
                 return (
                     <div className="flex items-center justify-center w-1/5 mx-2">
-                    <PulseButton image={site.name}/>
+                    <PulseButton image={site.name} link={site.link}/>
                     </div>
                 )
             })}
