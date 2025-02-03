@@ -1,4 +1,5 @@
 import React from "react";
+import ProjectShowcase from "../components/Projects/ProjectShowcase";
 
 const Experience = () => {
     return (
@@ -11,6 +12,7 @@ const Experience = () => {
             <div className="flex w-screen justify-center pt-[20px]">
                 <h3 className="text-2xl pb-10 font-sans text-bauhaus-blue">Here you can learn more about some of my favorite projects</h3>
             </div>
+            <ProjectShowcase />
         </div>
     );
 }
